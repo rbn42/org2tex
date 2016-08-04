@@ -12,6 +12,7 @@ http://emacs-fu.blogspot.co.nz/2011/04/nice-looking-pdfs-with-org-mode-and.html
 ** html
  <C-c><C-e>hh输出到html
  和emacs比,pandoc的输出结果很差,latex公式也无法转换.
+ 同样的,github也无法处理那些latex公式.
 ** pdf
    pdf的正确输出还需要调整.具体看上面.
    然后中文化也有问题.
