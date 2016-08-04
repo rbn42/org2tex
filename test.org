@@ -1,0 +1,42 @@
+
+
+
+下面这个注释掉,因为还没加入这些配置.
+######+LaTeX_CLASS: djcb-org-article
+#+TITLE: My little document
+* 原文
+http://emacs-fu.blogspot.co.nz/2011/04/nice-looking-pdfs-with-org-mode-and.html
+* 用法说明
+在emacs中按<C-c><C-e> 即可选择输出形式.
+暂且来说,html的转换可以直接使用,不需要调整,所以很方便.
+** html
+ <C-c><C-e>hh输出到html
+ 和emacs比,pandoc的输出结果很差,latex公式也无法转换.
+** pdf
+   pdf的正确输出还需要调整.具体看上面.
+   然后中文化也有问题.
+* 缺陷 
+1.还不知道怎么处理ref
+2.图片可以引入,但是怎么做label?
+3.很明显,org不是用来排版的,所以图片应该不能左右划分布局
+
+* Introduction
+  
+  This is my document. There are many like it, but this is mine. It's easy to
+  write without *too* _many_ /distractions/.
+  
+** Normal distribution
+
+   Probability density of the normal distribution, using familiar TeX notation
+   for formulae:
+ 
+   $$\frac{1}{\sqrt{2\pi\sigma^2}}e^{ -\frac{(x-\mu)^2}{2\sigma^2} }$$
+
+** Some table
+
+| *Greek God* | *Roman God* | *Element*      |
+|-------------+-------------+----------------|
+| Zeus        | Jupiter     | Sky and clouds |
+| Hera        | Juno        | Family         |
+| Poseidon    | Neptune     | Sea            |
+| Hades       | Pluto       | Underworld     |
